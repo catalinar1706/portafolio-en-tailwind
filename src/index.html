@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>PORTAFOLIO</title>
+</head>
+<body class="bg-black text-white">
+  <div class="hero h-screen w-full bg-cover bg-left">
+      <nav class="flex items-center justify-between px-8 py-4">
+          <h2 class="logo text-4xl font-bold cursor-pointer">portafo<span class="text-pink-600">lio</span></h2>
+          <ul class="flex space-x-6">
+              <li><a href="#" class="text-lg font-bold hover:text-pink-600">INICIO</a></li>
+              <li><a href="#" class="text-lg font-bold hover:text-pink-600">ACERCA DE NOSOTROS</a></li>
+              <li><a href="#" class="text-lg font-bold hover:text-pink-600">SERVICIOS</a></li>
+              <li><a href="#" class="text-lg font-bold hover:text-pink-600">HABILIDADES</a></li>
+              <li><a href="#" class="text-lg font-bold hover:text-pink-600">CONTACTENOS</a></li>
+          </ul>
+          <a href="#" class="btn bg-pink-600 text-white font-bold py-2 px-6 rounded-full transform transition-transform hover:scale-125">Suscribete</a>
+      </nav>
+      <img class="img1 ml-[1200px] h-[700px] mt-[100px]" src="/img/logo sin fondooo.png" alt="">
+      <div class="content absolute top-1/2 left-8 transform -translate-y-1/2">
+          <h4 class="text-gray-200 text-xl tracking-wide">Hello, my name is</h4>
+          <h1 class="text-6xl font-bold my-5">Catalina <span class="text-pink-600">Rivera</h1>  
+          <h3 class="text-2xl mb-12">I'm a Web Developer</h3>
+          <div class="newslatter">
+              <form class="relative w-96 max-w-full">
+                  <input type="email" name="email" id="mail" placeholder="enter" class="w-full py-3 pl-4 pr-32 border-2 border-pink-600 rounded-full">
+                  <input type="submit" name="submit" value="let's start" class="absolute right-2 top-2 py-2 px-6 bg-pink-600 text-white rounded-full shadow-lg">
+              </form>
+          </div>
+      </div>
+  </div>
+  <section class="about bg-[#191919] py-24">
+      <div class="main max-w-7xl mx-auto flex items-center justify-around">
+          <img src="/img/logo sin fondooo.png" alt="" class="w-[430px]">
+          <div class="about-text max-w-md">
+              <h2 class="text-6xl mb-5">About Me</h2>
+              <h5 class="text-2xl mb-6">Developer<span class="text-pink-600"> & Designer</span></h5>
+              <p class="text-lg leading-7 mb-11">Soy una joven estudiante de desarrollo de software con una pasión por el fitness y el bienestar. Además, me encanta salir a montar bicicleta, aprovechando cada oportunidad para conectarme con la naturaleza y mantenerme activa, me gusta ser puntual y se refleja tanto en mi vida académica como en mis compromisos personales..</p>
+              <button type="button" class="bg-pink-600 text-white font-bold py-3 px-8 rounded-full transition hover:bg-transparent hover:border-2 hover:border-pink-600 hover:text-pink-600">Let's Talk</button>
+          </div>
+      </div>
+  </section>
+  <div class="service bg-[#101010] py-24">
+      <div class="title text-center mb-12">
+          <h2 class="text-6xl">Our Service</h2>
+      </div>
+      <div class="box flex justify-center items-center min-h-[400px]">
+          <div class="card bg-[#191919] rounded-2xl p-8 text-center relative w-[335px] h-[365px] m-4">
+              <h5 class="text-2xl mb-4">web development</h5>
+              <div class="pra">
+                  <p class="text-lg leading-7 mb-6">ofrezco servicios de maquetación y estilos para páginas web. Esto implica crear la estructura visual utilizando HTML y CSS, asegurando un diseño atractivo y funcional que cumpla con las necesidades del cliente</p>
+                  <p class="text-center">
+                      <a href="#" class="bg-pink-600 text-white font-bold py-2 px-6 rounded-full transition hover:bg-transparent hover:border-2 hover:border-pink-600 hover:text-pink-600">leer mas</a>
+                  </p>
+              </div>
+          </div>
+          <div class="card bg-[#191919] rounded-2xl p-8 text-center relative w-[335px] h-[365px] m-4">
+              <h5 class="text-2xl mb-4">web development</h5>
+              <div class="pra">
+                  <p class="text-lg leading-7 mb-6">Estoy comprometida a ser una aliada en su viaje educativo, brindando el conocimiento y la asistencia necesarios para alcanzar el éxito en el mundo del desarrollo de software.</p>
+                  <p class="text-center">
+                      <a href="#" class="bg-pink-600 text-white font-bold py-2 px-6 rounded-full transition hover:bg-transparent hover:border-2 hover:border-pink-600 hover:text-pink-600">leer mas</a>
+                  </p>
+              </div>
+          </div>
+          <div class="card bg-[#191919] rounded-2xl p-8 text-center relative w-[335px] h-[365px] m-4">
+              <h5 class="text-2xl mb-4">web development</h5>
+              <div class="pra">
+                  <p class="text-lg leading-7 mb-6">Durante mi breve trayectoria académica, he adquirido conocimientos en diversas áreas, incluyendo JavaScript, Python, bases de datos, así como también en diseño web utilizando HTML y CSS</p>
+                  <p class="text-center">
+                      <a href="#" class="bg-pink-600 text-white font-bold py-2 px-6 rounded-full transition hover:bg-transparent hover:border-2 hover:border-pink-600 hover:text-pink-600">leer mas</a>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="contact-me bg-[#191919] flex flex-col items-center justify-center py-24">
+      <p class="text-2xl font-bold mb-6">Dejame crearte un diseño en HTML y CSS</p>
+      <a href="#" class="bg-pink-600 text-white font-bold py-3 px-8 rounded-full transition hover:bg-transparent hover:border-2 hover:border-pink-600 hover:text-pink-600">Hire Me</a>
+  </div>
+  <footer class="bg-[#101010] flex flex-col items-center justify-center py-24 text-pink-600">
+      <p class="text-2xl text-white mb-6 font-bold">Catalina Rivera</p>
+      <p class="text-lg text-center text-white mb-6 max-w-lg">Todo sitio web debe crearse con dos objetivos principales: en primer lugar, debe funcionar en todos los dispositivos. En segundo lugar, debe ser lo más rápido posible.</p>
+      <div class="social flex space-x-4 mb-6">
+          <a href="#" class="bg-pink-600 text-white flex items-center justify-center w-12 h-12 rounded-full transition-transform transform hover:scale-125">FB</a>
+          <a href="#" class="bg-pink-600 text-white flex items-center justify-center w-12 h-12 rounded-full transition-transform transform hover:scale-125">TW</a>
+          <a href="#" class="bg-pink-600 text-white flex items-center justify-center w-12 h-12 rounded-full transition-transform transform hover:scale-125">IG</a>
+      </div>
+      <p class="text-pink-600 text-sm">Catalina Rivera</p>
+  </footer>
+</body>
+</html>
